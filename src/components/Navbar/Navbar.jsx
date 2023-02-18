@@ -8,7 +8,7 @@ const Navbar = () => {
         <li><Link to={'/contact'}>Contact Us</Link></li>
     </>
     return (
-        <div className=" bg-base-300 sticky top-0">
+        <div className=" bg-slate-900 text-white font-serif">
             <div className="navbar container mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
