@@ -4,7 +4,7 @@ import TopITCompany from './TopITCompany';
 const TopITCompanies = () => {
     const [topITCompanies, setTopITCompanies] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/top-it-companies')
+        fetch('https://job-hub-server-mizanor21.vercel.app/top-it-companies')
             .then(res => res.json())
             .then(data => setTopITCompanies(data))
     }, [])
